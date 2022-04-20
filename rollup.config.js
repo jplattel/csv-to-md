@@ -39,9 +39,9 @@ export default {
 			JSZip: 'JSZip'
 		}
 	},
-	external: [
-		'JSZip'
-	],
+	// external: [
+	// 	'JSZip'
+	// ],
 	plugins: [
 		svelte({
 			compilerOptions: {
