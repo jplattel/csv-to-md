@@ -34,10 +34,13 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: 'public/build/bundle.js',
+		globals: {
+			JSZip: 'JSZip'
+		}
 	},
 	external: [
-		// 'JSZip'
+		'JSZip'
 	],
 	plugins: [
 		svelte({
