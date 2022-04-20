@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.5",
-    "jszip": "^3.7.1",
+    "jszip": "^3.9.1",
     "marked": "^4.0.12",
     "papaparse": "^5.3.1",
     "sirv-cli": "^2.0.0"
